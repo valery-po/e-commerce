@@ -1,0 +1,66 @@
+.header-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #808080;
+
+	&:not(:last-child) {
+
+		margin-right: 35px;
+
+	}
+
+
+	.icon-svg {
+
+		fill: grey;
+	}
+
+
+	&:hover {
+
+		color: $blue;
+		text-decoration: none;
+
+		.icon-svg {
+
+			fill: $blue;
+		}
+
+	}
+
+
+}
+
+
+
+
+
+
+
+.header-link__icon {
+	position: relative;
+	width: 21px;
+	height: 21px;
+	margin-right: 18px;
+}
+
+.header-link--notify .header-link__icon::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	right: -7px;
+	height: 6px;
+	width: 6px;
+	background-color: #1875f0;
+	border-radius: 50%;
+}
+
+
+.header-link__text {
+
+	color: #808080;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+}

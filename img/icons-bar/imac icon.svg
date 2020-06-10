@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20" width="22" height="20">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #cccccc } 
+	</style>
+	<path id="imac icon" class="shp0" d="M20 12L2 12L2 2L20 2L20 12ZM20 0L2 0C0.9 0 0 0.9 0 2L0 14C0 15.1 0.9 16 2 16L9 16L7 19L7 20L15 20L15 19L13 16L20 16C21.1 16 22 15.1 22 14L22 2C22 0.9 21.1 0 20 0Z" />
+</svg>

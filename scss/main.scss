@@ -1,0 +1,26 @@
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/base";
+
+
+@import "./blocks/header";
+@import "./blocks/logo.scss";
+@import "./blocks/header-select";
+@import "./blocks/header-link";
+@import "./blocks/header-nav";
+@import "./blocks/header-mega-menu-link";
+@import "./blocks/nav-dropdown";
+@import "./blocks/carousel";
+@import "./blocks/carousel-theme.scss";
+@import "./blocks/promo-section.scss";
+@import "./blocks/promo-section-item.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/main.scss";
+@import "./blocks/info-block.scss";
+@import "./blocks/tabs.scss";
+@import "./blocks/card.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/nav-footer.scss";
+@import "./blocks/social.scss";
+@import "./blocks/copyright.scss";
+@import "./blocks/payments.scss";

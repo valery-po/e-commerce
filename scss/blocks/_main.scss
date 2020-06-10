@@ -1,0 +1,33 @@
+.main-content {}
+
+.main-row {
+
+	display: flex;
+}
+
+
+.main__column-left {
+
+	width: 255px;
+	flex-shrink: 0;
+	margin-right: 30px;
+
+	& > * + * {
+
+		margin-top: 30px;
+
+
+	}
+
+
+
+
+}
+
+.navigation {}
+
+
+.main__column-right {
+
+	flex-grow: 1;
+}
